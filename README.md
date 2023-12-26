@@ -4,7 +4,7 @@
 
 ### Introduction
 
-    My current and ongoing linux setup. Includes both my Desktop and my server for a more streamlined experience. Please make your own adjustments as needed.
+    My current and ever changing linux setup. Includes both my Desktop and my server for a more streamlined experience. Both are Arch linux based. Please make your own adjustments as needed.
 
 ## Contents
 
@@ -12,8 +12,10 @@
 
 ## Installation
 
-    Step-by-step instructions on how to install and use these dotfiles.
-    Include any prerequisites or dependencies.
+    To install the custom distro with everything configured - download the latest release.
+
+    To manualy install the dotfiles on current system - run this in your home directory:
+    `bash git clone https://github.com/quantumr8/dotfiles`
 
 ## Features
 
@@ -21,13 +23,16 @@
  - ![ranger](https://github.com/ranger/ranger)
  - ![lsd](https://github.com/lsd-rs/lsd)
  - ![fish todo.txt](https://github.com/cideM/todo-fish)
+ - ![helix](https://helix-editor.com/)
+ - ![paru](https://github.com/Morganamilo/paru)
 ### To-Do
  - [ ] install fzf, ripgrep, most
  - [ ] Add alias: grep=rg less=most more=most
- - [ ] Add more alias plz='sudo fish -c"$(fc -ln -1):'
  - [ ] Install fisher
     - [ ] install cideM/todo-fish
-- [ ] Add ai command line function. ![this](https://gist.github.com/Heath123/d3bc8fbd41a7d29a5c9edf2186a095d0)
+ - [ ] Add ai command line function. ![link](https://gist.github.com/Heath123/d3bc8fbd41a7d29a5c9edf2186a095d0)
+ - [ ] Add cool MOTD
+ - [ ] Add starship and themes
 
 ## Screenshots
 
@@ -41,7 +46,7 @@
 
 ## Customization
 
-    Guide on how users can customize these dotfiles to suit their preferences.
+    Themes:
     WIP
 
 ## Acknowledgments
