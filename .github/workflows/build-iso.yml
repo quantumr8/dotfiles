@@ -10,6 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    container:
+      image: archlinux:latest
+
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
@@ -25,10 +28,13 @@ jobs:
       run: |
         sudo cp -r /github/workspace /root/
         cd /root/workspace
-        sudo ./build-desktop-iso.sh # Your script to build the ISO
+        sudo chmod +x ./build-iso.sh
+        sudo ./build-iso.sh # Your script to build the ISO
+    
+
 
     - name: Upload ISO Artifact
       uses: actions/upload-artifact@v2
       with:
         name: arch-linux-iso
-        path: ./DesktopArch.iso
+        path: /root/workspace/out/*.iso

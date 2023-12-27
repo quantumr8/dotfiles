@@ -25,10 +25,10 @@ To manualy install the dotfiles on current system - run this in your home direct
  - [helix](https://helix-editor.com/)
  - [paru](https://github.com/Morganamilo/paru)
 ### To-Do
- - [ ] install fzf, ripgrep, most
- - [ ] Add alias: grep=rg less=most more=most
- - [ ] Install fisher
+ - [X] install fzf, ripgrep, most
+ - [X] Install fisher
     - [ ] install cideM/todo-fish
+ - [ ] Add alias: grep=rg less=most more=most
  - [ ] Add ai command line function. [link](https://gist.github.com/Heath123/d3bc8fbd41a7d29a5c9edf2186a095d0)
  - [ ] Add cool MOTD
  - [ ] Add starship and theme
@@ -50,12 +50,8 @@ WIP
 
 ## Acknowledgments
 
-Special thanks to [OgloTheNerd](https://www.youtube.com/@oglothenerd) for showing me I don't need NixOS to automate my build. [Rebos](https://gitlab.com/Oglo12/rebos)
+Special thanks to [OgloTheNerd](https://www.youtube.com/@oglothenerd) for showing me I don't need NixOS to automate my build.
 Hyprland config ideas from [lauroro](https://github.com/lauroro/hyprland-dotfiles)
-
-## License
-
-State the license under which your dotfiles are shared (e.g., MIT, GPL).
 
 ## Contact Information
 
