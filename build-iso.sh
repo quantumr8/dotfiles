@@ -10,4 +10,4 @@ if [ ! -d "$config_dir" ]; then
 fi
 
 # Build the ISO
-sudo mkarchiso -v -w /tmp/archiso-tmp -o out $config_dir
+mkarchiso -v -w /tmp/archiso-tmp -o out $config_dir
