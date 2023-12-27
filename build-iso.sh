@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the path to the archiso configuration
-config_dir="releng"
+config_dir="/__w/dotfiles/dotfiles/releng"
 
 # Ensure the configuration directory exists
 if [ ! -d "$config_dir" ]; then
