@@ -22,14 +22,14 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        sudo pacman -Sy --noconfirm archiso
+        pacman -Sy --noconfirm archiso
 
     - name: Build ISO
       run: |
-        sudo cp -r /github/workspace /root/
+        cp -r /github/workspace /root/
         cd /root/workspace
-        sudo chmod +x ./build-iso.sh
-        sudo ./build-iso.sh # Your script to build the ISO
+        chmod +x ./build-iso.sh
+        ./build-iso.sh # Your script to build the ISO
     
 
 
