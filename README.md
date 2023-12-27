@@ -1,5 +1,5 @@
 # My Dotfiles Repository
-![Last Commit](https://img.shields.io/github/last-commit/quantumr8/dotfiles/main?style=for-the-badge&logo=github) ![Static Badge](https://img.shields.io/badge/Distro-Arch_linux-blue?style=for-the-badge&logo=archlinux&link=https%3A%2F%2Farchlinux.org) ![Static Badge](https://img.shields.io/badge/Total_Packages-10-red?style=for-the-badge&logo=archlinux&link=%23features)
+![Last Commit](https://img.shields.io/github/last-commit/quantumr8/dotfiles/main?style=for-the-badge&logo=github) ![Static Badge](https://img.shields.io/badge/Distro-Arch_linux-blue?style=for-the-badge&logo=archlinux&link=https%3A%2F%2Farchlinux.org) ![Static Badge](https://img.shields.io/badge/Total_Packages-~32-red?style=for-the-badge&logo=archlinux&link=%23features) ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/quantumr8/dotfiles/build-iso.yml?style=for-the-badge&logo=github)
 
 ## Introduction
 

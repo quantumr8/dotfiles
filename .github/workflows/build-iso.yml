@@ -31,7 +31,6 @@ jobs:
 
     - name: Build ISO
       run: |
-        cd $GITHUB_WORKSPACE
         chmod +x ./build-iso.sh
         ./build-iso.sh # Your script to build the ISO
     
