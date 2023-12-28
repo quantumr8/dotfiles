@@ -3,6 +3,9 @@
 # Set the path to the archiso configuration
 config_dir="/__w/dotfiles/dotfiles/releng"
 
+# list current directory
+ls -l
+
 # Ensure the configuration directory exists
 if [ ! -d "$config_dir" ]; then
     echo "ERROR: Configuration directory does not exist: $config_dir"
