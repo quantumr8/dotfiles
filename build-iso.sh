@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the path to the archiso configuration
-config_dir="/__w/dotfiles/dotfiles/releng"
+config_dir="./releng"
 
 # list current directory
 ls -l
